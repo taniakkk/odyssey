@@ -228,7 +228,7 @@
    .menu__body._active::before {
       top: 0;
    }
-   .header._header-scroll .menu__body::before {
+   .header._header-scroll .menu__body._active::before {
       top: 0;
       left: -100%;
    }
