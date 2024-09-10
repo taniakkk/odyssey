@@ -11,7 +11,7 @@
    background-color: rgba(169, 194, 203, 0.7);
    transition: background-color 0.5s linear;
 }
-.header::after:not('.header._header-scroll') {
+.header::after {
    content: "";
    position: absolute;
    top: 0;
