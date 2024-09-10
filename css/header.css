@@ -11,7 +11,7 @@
    background-color: rgba(169, 194, 203, 0.7);
    transition: background-color 0.5s linear;
 }
-.header::after {
+.header:not(.header._header-scroll)::after {
    content: "";
    position: absolute;
    top: 0;
@@ -228,13 +228,16 @@
    .menu__body._active::before {
       top: 0;
    }
+   /*
    .header._header-scroll .menu__body._active::before {
       top: 0;
       left: -100%;
    }
+
    .header._header-scroll .menu__body._active::before {
       left: 0;
    }
+   */
    .menu__link.link {
       display: block;
       font-size: 1.625rem;
